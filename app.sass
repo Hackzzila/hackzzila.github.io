@@ -1,11 +1,36 @@
-@import '~bulma';
+@import '~bulma/sass/utilities/initial-variables.sass'
+
+$link: $blue
+
+@import '~bulma'
+
+@keyframes fade 
+  from
+    opacity: 0
+  
+  to
+    opacity: 1
+
+.avatar img
+  border-radius: 50%
 
 .column.main
   margin-top: 25px
   margin-bottom: 25px
+  animation-name: fade
+  animation-duration: 1s
+  animation-fill-mode: both
 
 .title
   margin-top: 10px
 
+.subtitle
+  margin-top: 20px
+  margin-bottom: 10px !important
+
 p
   margin-bottom: 25px
+
+.button
+  border-radius: 50%
+  transition: all 100ms linear
