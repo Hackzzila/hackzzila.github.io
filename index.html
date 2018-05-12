@@ -4,82 +4,122 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Zachary Vacura</title>
+  <title>Zach Vacura</title>
 
-  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Source+Sans+Pro" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 </head>
 <body>
-  <div class="row">
-    <div class="tri info">
-      <div class="main">
-        <h1 class="title">Zachary Vacura</h1>
-        <h2 class="subtitle">A bored student interested in Computer Science.</h2>
-
-        <ul>
-          <li>
-            <a href="https://github.com/Hackzzila">
-              <i class="fab fa-github"></i>
-              Hackzzila
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/Hackzzila">
-              <i class="fab fa-twitter"></i>
-              @Hackzzila
-            </a>
-          </li>
-
-          <li>
-            <a href="mailto:zach@hackzzila.com">
-              <i class="far fa-envelope"></i>
-              zach@hackzzila.com
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <p class="footer">&copy; 2018 Zachary Vacura</p>
-    </div>
-
-    <div class="tri projects">
-      <h1 class="title">Projects</h1>
-
-      <div class="project">
-        <a href="https://github.com/Hackzzila/krypton" class="name">krypton</a>
-        <div class="description">A multithreaded audio library for Node.js</div>
-      </div>
-
-      <div class="project">
-        <a href="https://github.com/Hackzzila/g8" class="name">g8</a>
-        <div class="description">Write Node.js addons in Go</div>
-      </div>
-
-      <div class="project">
-        <a href="https://github.com/Hackzzila/g8" class="name">require-dart</a>
-        <div class="description">Use JS modules in Dart</div>
-      </div>
-
-      <div class="project">
-        <a href="https://github.com/diamondpkg" class="name">diamond</a>
-        <div class="description">A package manager for Sass, Less, and Stylus</div>
-      </div>
-    </div>
-
-    <div class="tri third">
-      <h1 class="title">Experience</h1>
-
-      <ul>
-        <li>Node.js</li>
-        <li>JavaScript</li>
-        <li>C</li>
-        <li>C++</li>
-        <li>Dart</li>
-      </ul>
+  <div class="header">
+    <div class="center-container">
+        <h1 class="title">Zach Vacura</h1>
+        <div class="link-container">
+          <span class="links">
+            <a href="https://github.com/Hackzzila">GitHub</a>
+            <a href="mailto:zach@hackzzila.com">Email</a>
+            <a href="https://twitter.com/Hackzzila">Twitter</a>
+          </span>
+        </div>
     </div>
   </div>
+
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
+
+  <div class="body">
+    <div class="projects-container">
+      <div class="projects">
+        <h2 class="title">Projects</h2>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Krypton</span>
+            <p>A multithreaded Discord audio library. Currently in use by Discord.js.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Hackzzila/krypton">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">require-x</span>
+            <p>A set of libraries for language interoperability. Mostly just for fun.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/require-x">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">g8</span>
+            <p>A template for writing Node.js native addons in Go.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Hackzzila/g8">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">diamond</span>
+            <p>A package manager for Sass, Less, and Stylus.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/diamondpkg">GitHub</a>
+            <a href="https://diamondpkg.org">Website</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">nyx</span>
+            <p>A Discord library written in Dart.</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/Hackzzila/nyx">GitHub</a>
+            <a href="https://nyx.hackzzila.com">Website</a>
+          </div>
+        </div>
+
+        <h2 class="title">Contributions</h2>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Discord.js</span>
+            <p>
+              Discord.js was the first major project I contributed too.
+              Even though I have slowed down on making pull requests I still know and talk to the developers and other contributors.
+            </p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/discordjs/discord.js">GitHub</a>
+            <a href="https://discord.js.org">Website</a>
+            <a href="https://github.com/discordjs/discord.js/commits?author=Hackzzila">My Contributions</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Node.js</span>
+            <p>
+              I have barely contributed to Node.js but I look forward to making more pull requests in the future.
+            </p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/nodejs/node">GitHub</a>
+            <a href="https://nodejs.org">Website</a>
+            <a href="https://github.com/nodejs/node/commits?author=Hackzzila">My Contributions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    console.log('why are you here');
+  </script>
 </body>
 </html>
